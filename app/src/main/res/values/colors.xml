@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <!-- Base Colors -->
+    <color name="Aqua">#00ffff</color>
+    <color name="Black">#000000</color>
+    <color name="Blue">#0000ff</color>
+    <color name="Brown">#8b4513</color>
+    <color name="Coral">#ff4400</color>
+    <color name="CornFlowerBlue">#6495ed</color>
+    <color name="Cyan">#00ffff</color>
+    <color name="DarkGrey">#404040</color>
+    <color name="FireBrick">#b22222</color>
+    <color name="Gold">#ffd700</color>
+    <color name="Green">#008000</color>
+    <color name="Grey">#808080</color>
+    <color name="Indigo">#4b0082</color>
+    <color name="Lavender">#2a2ad5</color>
+    <color name="Lime">#00ff00</color>
+    <color name="Magenta">#ff00ff</color>
+    <color name="Mauve">#9370db</color>
+    <color name="Midnight">#191970</color>
+    <color name="OliveGreen">#556b2f</color>
+    <color name="Orange">#ffa500</color>
+    <color name="Pink">#ffc0cb</color>
+    <color name="Purple">#800080</color>
+    <color name="Red">#e60000</color>
+    <color name="RoyalBlue">#4169e1</color>
+    <color name="Salmon">#fa8072</color>
+    <color name="SeaGreen">#2e8b57</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="SkyBlue">#87ceeb</color>
+    <color name="SlateBlue">#6a5acd</color>
+    <color name="SlateGrey">#708090</color>
+    <color name="SteelBlue">#4682b4</color>
+    <color name="Teal">#008080</color>
+    <color name="Violet">#ee82ee</color>
+    <color name="Wheat">#f5deb3</color>
+    <color name="White">#ffffff</color>
+    <color name="Yellow">#ffff00</color>
+    <!-- Theme Colors -->
+    <color name="colorPrimaryAqua">#00ffff</color>
+    <color name="colorPrimaryDarkAqua">#009999</color>
+    <color name="colorPrimaryAccentAqua">#b3ffff</color>
+
+    <color name="colorPrimaryBlack">#0d0d0d</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="colorAccentBlack">#333333</color>
+
+    <color name="colorPrimaryBlue">#0000ff</color>
+    <color name="colorPrimaryDarkBlue">#000099</color>
+    <color name="colorAccentBlue">#b3b3ff</color>
+
+    <color name="colorPrimaryBrown">#8b4513</color>
+    <color name="colorPrimaryDarkBrown">#70380f</color>
+    <color name="colorAccentBrown">#f6d4bc</color>
+
+    <color name="colorPrimaryCoral">#ff4400</color>
+    <color name="colorPrimaryDarkCoral">#772020</color>
+    <color name="colorAccentCoral">#ed612f</color>
+
+    <color name="colorPrimaryFireBrick">#b22222</color>
+    <color name="colorPrimaryDarkFireBrick">#6b1414</color>
+    <color name="colorAccentFireBrick">#e26969</color>
+
+    <color name="colorPrimaryGreen">#008000</color>
+    <color name="colorPrimaryDarkGreen">#004d00</color>
+    <color name="colorAccentGreen">#b3ffb3</color>
+
+    <color name="colorPrimaryGrey">#808080</color>
+    <color name="colorPrimaryDarkGrey">#595959</color>
+    <color name="colorAccentGrey">#cccccc</color>
+
+    <color name="colorPrimaryGold">#ffd700</color>
+    <color name="colorPrimaryDarkGold">#998200</color>
+    <color name="colorAccentGold">#fff099</color>
+
+    <color name="colorPrimaryOliveGreen">#556b2f</color>
+    <color name="colorPrimaryDarkOliveGreen">#38471f</color>
+    <color name="colorAccentOliveGreen">#afc983</color>
+
+    <color name="colorPrimaryOrange">#ffa400</color>
+    <color name="colorPrimaryDarkOrange">#b37400</color>
+    <color name="colorAccentOrange">#ffe4b3</color>
+
+    <color name="colorPrimaryPurple">#800080</color>
+    <color name="colorPrimaryDarkPurple">#4d004d</color>
+    <color name="colorAccentPurple">#ff00ff</color>
+
+    <color name="colorPrimaryMauve">#9370db</color>
+    <color name="colorPrimaryDarkMauve">#5229a3</color>
+    <color name="colorAccentMauve">#d1c2f0</color>
+
+    <color name="colorPrimaryRed">#e60000</color>
+    <color name="colorPrimaryDarkRed">#990000</color>
+    <color name="colorAccentRed">#ffb3b3</color>
+
+    <color name="colorPrimarySalmon">#f62109</color>
+    <color name="colorPrimaryDarkSalmon">#ac1706</color>
+    <color name="colorAccentSalmon">#fba69d</color>
+
+    <color name="colorPrimaryRoyalBlue">#4169e1</color>
+    <color name="colorPrimaryDarkRoyalBlue">#18399a</color>
+    <color name="colorAccentRoyalBlue">#a7b9f1</color>
+
+    <color name="colorPrimarySkyBlue">#87ceeb</color>
+    <color name="colorPrimaryDarkSkyBlue">#1a7599</color>
+    <color name="colorAccentSkyBlue">#a8dcf0</color>
+
+    <color name="colorPrimarySteelBlue">#4682b4</color>
+    <color name="colorPrimaryDarkSteelBlue">#325d81</color>
+    <color name="colorAccentSteelBlue">#b6cee2</color>
+
+    <color name="colorPrimaryTeal">#008080</color>
+    <color name="colorPrimaryDarkTeal">#004d4d</color>
+    <color name="colorAccentTeal">#b3ffff</color>
+
+    <color name="colorPrimaryViolet">#EE82EE</color>
+    <color name="colorPrimaryDarkViolet">#9400D3</color>
+    <color name="colorAccentViolet">#DDA0DD</color>
+
+    <color name="colorPrimaryWheat">#f5deb3</color>
+    <color name="colorPrimaryDarkWheat">#875e12</color>
+    <color name="colorAccentWheat">#F8e7c7</color>
+
+    <color name="colorPrimaryWhite">#ffffff</color>
+    <color name="colorPrimaryDarkWhite">#8c8c8c</color>
+    <color name="colorAccentWhite">#ffffff</color>
+
+    <color name="colorPrimaryYellow">#ffff00</color>
+    <color name="colorPrimaryDarkYellow">#6e6e31</color>
+    <color name="colorAccentYellow">#f8e7c7</color>
+
+    <color name="textColorPrimaryAqua">#00ffff</color>
+    <color name="textColorPrimaryBlack">#000000</color>
+    <color name="textColorPrimaryBlue">#0000ff</color>
+    <color name="textColorPrimaryCoral">#ff4400</color>
+    <color name="textColorPrimaryFireBrick">#b22222</color>
+    <color name="textColorPrimaryGold">#ffd700</color>
+    <color name="textColorPrimaryGreen">#008000</color>
+    <color name="textColorPrimaryLime">#00ff00</color>
+    <color name="textColorPrimaryGrey">#808080</color>
+    <color name="textColorPrimaryOrange">#ffa400</color>
+    <color name="textColorPrimaryPurple">#800080</color>
+    <color name="textColorPrimaryMagenta">#ff00ff</color>
+    <color name="textColorPrimaryRed">#e60000</color>
+    <color name="textColorPrimaryRoyalBlue">#4169e1</color>
+    <color name="textColorPrimarySkyBlue">#87ceeb</color>
+    <color name="textColorPrimarySteelBlue">#4682b4</color>
+    <color name="textColorPrimaryViolet">#ee82ee</color>
+    <color name="textColorPrimaryTeal">#008080</color>
+    <color name="textColorPrimaryWheat">#f5deb3</color>
+    <color name="textColorPrimaryWhite">#ffffff</color>
+    <color name="textColorPrimaryYellow">#ffff00</color>
+
+    <color name="statusBarTransparent">#6F000000</color>
+    <color name="colorTransparent">#25000000</color>
+    <color name="TransparentBlue">#500000ff</color>
+    <color name="TransparentBrown">#50a52a2a</color>
+    <color name="TransparentGreen">#50008000</color>
+    <color name="TransparentGrey">#50808080</color>
+    <color name="TransparentOrange">#50ffa500</color>
+    <color name="TransparentPurple">#50800080</color>
+    <color name="TransparentRed">#50ff0000</color>
+    <color name="TransparentSkyBlue">#5087ceeb</color>
+    <color name="TransparentTeal">#50008080</color>
+    <color name="TransparentWheat">#50f5deb3</color>
+
+</resources>

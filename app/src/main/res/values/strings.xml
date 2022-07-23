@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CBG Basic Animations</string>
+    <string name="translate">Translate</string>
+    <string name="rotate">Rotate</string>
+    <string name="animation_set">Animation Set</string>
+    <string name="exit">Exit</string>
+    <string name="scale">Scale</string>
+    <string name="alpha">Alpha</string>
+    <string name="pulse">Pulse</string>
+    <string name="roll">Roll</string>
+    <string name="overshoot">Overshoot</string>
+    <string name="rotate_and_grow">Rotate And Grow</string>
+    <string name="grow">Grow</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="spin_and_grow">Spin And Grow</string>
+    <string name="shrink">Shrink</string>
+    <string name="spin_and_shrink">Spin And Shrink</string>
+    <string name="basic_animation_examples">Basic Animation Examples</string>
+</resources>

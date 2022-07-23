@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGold</item>
+        <item name="colorAccent">@color/colorAccentGold</item>
+        <item name="fontFamily">@font/cbg_one</item>
+    </style>
+</resources>
