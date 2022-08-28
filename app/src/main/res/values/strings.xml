@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">CBG Basic Animations</string>
+    <string name="scroll_across">Scroll Across</string>
+    <string name="scroll_up">Scroll Up</string>
     <string name="translate">Translate</string>
     <string name="rotate">Rotate</string>
     <string name="animation_set">Animation Set</string>

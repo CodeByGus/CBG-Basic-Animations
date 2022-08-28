@@ -8,6 +8,11 @@ import com.codebygus.cbgbasicanimations.databinding.BasicAnimationsBinding
 
 class BasicAnimations : AppCompatActivity() {
     private lateinit var conAnim: BasicAnimationsBinding
+    private lateinit var animScrollH: Animation
+    private lateinit var animScrollH1: Animation
+    private lateinit var animScrollH2: Animation
+    private lateinit var animScrollH3: Animation
+    private lateinit var animScrollV: Animation
     private lateinit var animTranslate: Animation
     private lateinit var animOvershoot: Animation
     private lateinit var animFadeIn: Animation
@@ -24,6 +29,11 @@ class BasicAnimations : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         conAnim = BasicAnimationsBinding.inflate(layoutInflater)
         setContentView(conAnim.root)
+        animScrollH = AnimationUtils.loadAnimation(this,R.anim.scroll_h)
+        animScrollH1 = AnimationUtils.loadAnimation(this,R.anim.scroll_h_1)
+        animScrollH2 = AnimationUtils.loadAnimation(this,R.anim.scroll_h_2)
+        animScrollH3 = AnimationUtils.loadAnimation(this,R.anim.scroll_h_3)
+        animScrollV = AnimationUtils.loadAnimation(this,R.anim.scroll_v)
         animTranslate = AnimationUtils.loadAnimation(this,R.anim.translate)
         animOvershoot = AnimationUtils.loadAnimation(this,R.anim.overshoot)
         animFadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_in)
@@ -37,44 +47,53 @@ class BasicAnimations : AppCompatActivity() {
         animShrink = AnimationUtils.loadAnimation(this,R.anim.shrink)
         animSpinShrink = AnimationUtils.loadAnimation(this,R.anim.spin_shrink)
 
+        conAnim.btnScrollH.setOnClickListener {
+            conAnim.imgLogo01.startAnimation(animScrollH)
+            conAnim.imgLogo02.startAnimation(animScrollH1)
+            conAnim.imgLogo03.startAnimation(animScrollH2)
+            conAnim.imgLogo04.startAnimation(animScrollH3)
+        }
+        conAnim.btnScrollV.setOnClickListener {
+            conAnim.imgLogo01.startAnimation(animScrollV)
+        }
         conAnim.btnTranslate.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animTranslate)
+            conAnim.imgLogo01.startAnimation(animTranslate)
         }
         conAnim.btnOvershoot.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animOvershoot)
+            conAnim.imgLogo01.startAnimation(animOvershoot)
         }
         conAnim.btnFadeIn.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animFadeIn)
+            conAnim.imgLogo01.startAnimation(animFadeIn)
         }
         conAnim.btnFadeOut.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animFadeOut)
+            conAnim.imgLogo01.startAnimation(animFadeOut)
         }
         conAnim.btnGrow.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animGrow)
+            conAnim.imgLogo01.startAnimation(animGrow)
         }
         conAnim.btnPulse.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animPulse)
+            conAnim.imgLogo01.startAnimation(animPulse)
         }
         conAnim.btnRotate.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animRotate)
+            conAnim.imgLogo01.startAnimation(animRotate)
         }
         conAnim.btnRotateGrow.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animRotateGrow)
+            conAnim.imgLogo01.startAnimation(animRotateGrow)
         }
         conAnim.btnRoll.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animRoll)
+            conAnim.imgLogo01.startAnimation(animRoll)
         }
         conAnim.btnSpinGrow.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animSpinGrow)
+            conAnim.imgLogo01.startAnimation(animSpinGrow)
         }
         conAnim.btnShrink.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animShrink)
+            conAnim.imgLogo01.startAnimation(animShrink)
         }
         conAnim.btnSpinShrink.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animSpinShrink)
+            conAnim.imgLogo01.startAnimation(animSpinShrink)
         }
         conAnim.btnExit.setOnClickListener {
-            conAnim.imgLogo.startAnimation(animFadeOut)
+            conAnim.imgLogo01.startAnimation(animFadeOut)
             finish()
         }
     }

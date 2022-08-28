@@ -15,18 +15,108 @@
         android:textColor="@color/colorPrimaryDarkGold"
         android:textStyle="bold"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
         tools:ignore="UselessParent">
         <ImageView
-            android:id="@+id/imgLogo"
+            android:id="@+id/imgLogo01"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/img_logo_gold"
+            android:visibility="invisible"
             tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo02"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_aqua"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo03"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_blue"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo04"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_brown"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo05"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_coral"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo06"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_green"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo07"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_purple"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo08"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_magenta"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo09"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_mauve"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imgLogo10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_logo_olive_green"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnScrollH"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_square_gold"
+            android:textColor="@color/Black"
+            android:text="@string/scroll_across" />
+        <Button
+            android:id="@+id/btnScrollV"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_square_gold"
+            android:textColor="@color/Black"
+            android:text="@string/scroll_up" />
     </LinearLayout>
 
     <LinearLayout
